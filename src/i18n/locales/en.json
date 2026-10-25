@@ -1,0 +1,178 @@
+{
+  "app": {
+    "name": "Paintball Team"
+  },
+  "common": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "loading": "Loading…",
+    "error": "Something went wrong: {{message}}",
+    "optional": "optional",
+    "confirmDelete": "Delete this? This can't be undone."
+  },
+  "nav": {
+    "events": "Events",
+    "absences": "Absences",
+    "team": "Team",
+    "profile": "Me"
+  },
+  "setup": {
+    "title": "Almost there",
+    "body": "The app isn't connected to a database yet. Add VITE_SUPABASE_URL and VITE_SUPABASE_ANON_KEY (see README)."
+  },
+  "login": {
+    "title": "Sign in",
+    "intro": "Enter your email and we'll send you a sign-in link. No password needed.",
+    "email": "Email",
+    "send": "Send link",
+    "sent": "Check your inbox at {{email}} and tap the link to sign in.",
+    "code": "6-digit code from the email",
+    "verify": "Sign in"
+  },
+  "onboarding": {
+    "title": "Welcome!",
+    "name": "Your name",
+    "join": "Join a team",
+    "joinHint": "Ask your captain for the invite code.",
+    "code": "Invite code",
+    "joinButton": "Join",
+    "or": "or",
+    "create": "Create a new team",
+    "teamName": "Team name",
+    "createButton": "Create team",
+    "badCode": "That invite code doesn't exist."
+  },
+  "rsvp": {
+    "pending": "No answer",
+    "going": "Going",
+    "late": "Late",
+    "maybe": "Maybe",
+    "not_going": "Out",
+    "locked": "Answers are locked",
+    "locksAt": "Answer by {{when}}",
+    "comment": "Comment",
+    "commentPlaceholder": "e.g. bringing 2 cases",
+    "absence": "absent"
+  },
+  "lines": {
+    "summary_one": "{{lines}} line",
+    "summary_other": "{{lines}} lines",
+    "subs_one": "+ {{count}} sub",
+    "subs_other": "+ {{count}} subs",
+    "missing_one": "{{count}} more for a line",
+    "missing_other": "{{count}} more for a line",
+    "perSide": "{{count}} per side"
+  },
+  "events": {
+    "upcoming": "Upcoming",
+    "past": "Past",
+    "none": "No upcoming events.",
+    "new": "New event",
+    "newSeries": "New recurring practice",
+    "cancelled": "Cancelled",
+    "cancel": "Cancel event",
+    "uncancel": "Restore event",
+    "kind": {
+      "practice": "Practice",
+      "tournament": "Tournament",
+      "meeting": "Meeting",
+      "other": "Other"
+    },
+    "title": "Title",
+    "type": "Type",
+    "location": "Location",
+    "notes": "Notes",
+    "date": "Date",
+    "start": "Start",
+    "end": "End",
+    "duration": "Duration (minutes)",
+    "playersPerSide": "Players per side",
+    "league": "League",
+    "format": "Format",
+    "formatPlaceholder": "e.g. Race to 4, X-Ball",
+    "rosterLimit": "Roster limit",
+    "lockHours": "Lock answers (hours before start)",
+    "recurring": "Part of a recurring practice",
+    "editSeries": "Edit the whole series",
+    "deleteSeries": "Delete the whole series",
+    "answers": "Answers",
+    "answerFor": "Answer for {{name}}"
+  },
+  "series": {
+    "title": "Recurring practice",
+    "weekdays": "Days",
+    "every": "Every",
+    "everyWeeks_one": "week",
+    "everyWeeks_other": "{{count}} weeks",
+    "startsOn": "First day",
+    "endsOn": "Last day",
+    "endsOnHint": "Leave empty to repeat until stopped.",
+    "changeWarning": "Changing days or times recreates the upcoming practices and resets their answers."
+  },
+  "weekday": {
+    "1": "Mon",
+    "2": "Tue",
+    "3": "Wed",
+    "4": "Thu",
+    "5": "Fri",
+    "6": "Sat",
+    "7": "Sun"
+  },
+  "absences": {
+    "title": "Absences",
+    "intro": "Holidays and injuries answer \"Out\" for every event in that time.",
+    "add": "Add absence",
+    "from": "From",
+    "to": "To",
+    "reason": "Reason",
+    "note": "Note",
+    "none": "No absences planned.",
+    "teammates": "Teammates away",
+    "reasons": {
+      "holiday": "Holiday",
+      "injury": "Injury",
+      "sick": "Sick",
+      "work": "Work",
+      "other": "Other"
+    }
+  },
+  "team": {
+    "members": "Members",
+    "invite": "Invite players",
+    "inviteHint": "Share this code or link. Anyone with it can join the team.",
+    "copyLink": "Copy invite link",
+    "copied": "Copied!",
+    "newCode": "New code",
+    "roles": {
+      "owner": "Owner",
+      "coach": "Coach",
+      "player": "Player"
+    },
+    "jersey": "#",
+    "remove": "Remove from team",
+    "leave": "Leave team",
+    "settings": "Team settings",
+    "timezone": "Time zone",
+    "defaultPlayers": "Default players per side",
+    "switch": "Switch team",
+    "addTeam": "Join or create another team"
+  },
+  "profile": {
+    "title": "My profile",
+    "name": "Name",
+    "position": "Main position",
+    "language": "Language",
+    "signOut": "Sign out",
+    "positions": {
+      "front": "Front",
+      "snake": "Snake",
+      "dorito": "Dorito",
+      "mid": "Mid",
+      "back": "Back",
+      "flex": "Flex"
+    }
+  }
+}

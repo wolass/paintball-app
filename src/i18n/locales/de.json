@@ -1,0 +1,178 @@
+{
+  "app": {
+    "name": "Paintball Team"
+  },
+  "common": {
+    "save": "Speichern",
+    "cancel": "Abbrechen",
+    "delete": "Löschen",
+    "edit": "Bearbeiten",
+    "back": "Zurück",
+    "loading": "Lädt…",
+    "error": "Etwas ist schiefgelaufen: {{message}}",
+    "optional": "optional",
+    "confirmDelete": "Wirklich löschen? Das kann nicht rückgängig gemacht werden."
+  },
+  "nav": {
+    "events": "Termine",
+    "absences": "Abwesend",
+    "team": "Team",
+    "profile": "Ich"
+  },
+  "setup": {
+    "title": "Fast geschafft",
+    "body": "Die App ist noch mit keiner Datenbank verbunden. Trage VITE_SUPABASE_URL und VITE_SUPABASE_ANON_KEY ein (siehe README)."
+  },
+  "login": {
+    "title": "Anmelden",
+    "intro": "Gib deine E-Mail-Adresse ein, wir schicken dir einen Anmeldelink. Kein Passwort nötig.",
+    "email": "E-Mail",
+    "send": "Link senden",
+    "sent": "Schau in dein Postfach ({{email}}) und tippe auf den Link, um dich anzumelden.",
+    "code": "6-stelliger Code aus der E-Mail",
+    "verify": "Anmelden"
+  },
+  "onboarding": {
+    "title": "Willkommen!",
+    "name": "Dein Name",
+    "join": "Einem Team beitreten",
+    "joinHint": "Frag deinen Captain nach dem Einladungscode.",
+    "code": "Einladungscode",
+    "joinButton": "Beitreten",
+    "or": "oder",
+    "create": "Neues Team erstellen",
+    "teamName": "Teamname",
+    "createButton": "Team erstellen",
+    "badCode": "Diesen Einladungscode gibt es nicht."
+  },
+  "rsvp": {
+    "pending": "Keine Antwort",
+    "going": "Dabei",
+    "late": "Später",
+    "maybe": "Vielleicht",
+    "not_going": "Nicht dabei",
+    "locked": "Antworten sind gesperrt",
+    "locksAt": "Antworten bis {{when}}",
+    "comment": "Kommentar",
+    "commentPlaceholder": "z. B. bringe 2 Kisten mit",
+    "absence": "abwesend"
+  },
+  "lines": {
+    "summary_one": "{{lines}} Linie",
+    "summary_other": "{{lines}} Linien",
+    "subs_one": "+ {{count}} Ersatz",
+    "subs_other": "+ {{count}} Ersatz",
+    "missing_one": "noch {{count}} für eine Linie",
+    "missing_other": "noch {{count}} für eine Linie",
+    "perSide": "{{count}} pro Seite"
+  },
+  "events": {
+    "upcoming": "Anstehend",
+    "past": "Vergangen",
+    "none": "Keine anstehenden Termine.",
+    "new": "Neuer Termin",
+    "newSeries": "Neues regelmäßiges Training",
+    "cancelled": "Abgesagt",
+    "cancel": "Termin absagen",
+    "uncancel": "Termin wiederherstellen",
+    "kind": {
+      "practice": "Training",
+      "tournament": "Turnier",
+      "meeting": "Treffen",
+      "other": "Sonstiges"
+    },
+    "title": "Titel",
+    "type": "Art",
+    "location": "Ort",
+    "notes": "Notizen",
+    "date": "Datum",
+    "start": "Beginn",
+    "end": "Ende",
+    "duration": "Dauer (Minuten)",
+    "playersPerSide": "Spieler pro Seite",
+    "league": "Liga",
+    "format": "Format",
+    "formatPlaceholder": "z. B. Race to 4, X-Ball",
+    "rosterLimit": "Kadergröße",
+    "lockHours": "Antworten sperren (Stunden vor Beginn)",
+    "recurring": "Teil eines regelmäßigen Trainings",
+    "editSeries": "Ganze Serie bearbeiten",
+    "deleteSeries": "Ganze Serie löschen",
+    "answers": "Antworten",
+    "answerFor": "Antwort für {{name}}"
+  },
+  "series": {
+    "title": "Regelmäßiges Training",
+    "weekdays": "Tage",
+    "every": "Alle",
+    "everyWeeks_one": "Woche",
+    "everyWeeks_other": "{{count}} Wochen",
+    "startsOn": "Erster Tag",
+    "endsOn": "Letzter Tag",
+    "endsOnHint": "Leer lassen, um ohne Ende zu wiederholen.",
+    "changeWarning": "Wenn du Tage oder Zeiten änderst, werden die kommenden Trainings neu angelegt und ihre Antworten zurückgesetzt."
+  },
+  "weekday": {
+    "1": "Mo",
+    "2": "Di",
+    "3": "Mi",
+    "4": "Do",
+    "5": "Fr",
+    "6": "Sa",
+    "7": "So"
+  },
+  "absences": {
+    "title": "Abwesenheiten",
+    "intro": "Urlaub und Verletzungen sagen automatisch für alle Termine in dieser Zeit ab.",
+    "add": "Abwesenheit eintragen",
+    "from": "Von",
+    "to": "Bis",
+    "reason": "Grund",
+    "note": "Notiz",
+    "none": "Keine Abwesenheiten geplant.",
+    "teammates": "Wer fehlt",
+    "reasons": {
+      "holiday": "Urlaub",
+      "injury": "Verletzung",
+      "sick": "Krank",
+      "work": "Arbeit",
+      "other": "Sonstiges"
+    }
+  },
+  "team": {
+    "members": "Mitglieder",
+    "invite": "Spieler einladen",
+    "inviteHint": "Teile diesen Code oder Link. Jeder damit kann dem Team beitreten.",
+    "copyLink": "Einladungslink kopieren",
+    "copied": "Kopiert!",
+    "newCode": "Neuer Code",
+    "roles": {
+      "owner": "Inhaber",
+      "coach": "Coach",
+      "player": "Spieler"
+    },
+    "jersey": "#",
+    "remove": "Aus dem Team entfernen",
+    "leave": "Team verlassen",
+    "settings": "Team-Einstellungen",
+    "timezone": "Zeitzone",
+    "defaultPlayers": "Standard: Spieler pro Seite",
+    "switch": "Team wechseln",
+    "addTeam": "Weiterem Team beitreten oder eins erstellen"
+  },
+  "profile": {
+    "title": "Mein Profil",
+    "name": "Name",
+    "position": "Hauptposition",
+    "language": "Sprache",
+    "signOut": "Abmelden",
+    "positions": {
+      "front": "Front",
+      "snake": "Snake",
+      "dorito": "Dorito",
+      "mid": "Mitte",
+      "back": "Back",
+      "flex": "Flex"
+    }
+  }
+}
